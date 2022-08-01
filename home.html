@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <title>Home</title>
+</head>
+<body>
+    <div align="center">
+        <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="Balance.php">Balance</a></li>
+            <li><a href="profile.php">Profile</a></li>
+            <li><a>Add expense</a></li>
+            <li><a>Tips</a></li>
+            <li><a href="about.html">About us</a></li>
+            <li><a href="report.php">Report</a></li>
+        </ul>
+    </div>
+    <form action="expenses.php" method="POST">
+    <div align="center">
+        <h1>Enter your expenses in the specific fields</h1>
+    </div>
+    <div class="row">
+        <div class="column">
+            <div class="card">
+                <img src="vegetables.png" style="border-radius: 5px 5px 0 0 ;">
+                <div class="container">
+                    <input type="number" id="vegetables" name="vegetables" placeholder="Enter amount">
+                </div>
+            </div>
+        </div>
+        <div class="column">
+            <div class="card">
+                <img src="fruits.png" style="border-radius: 5px 5px 0 0 ;">
+                <div class="container">
+                    <input type="number" id="fruits" name="fruits" placeholder="Enter amount">
+                </div>
+            </div>
+        </div>
+        <div class="column">
+            <div class="card">
+                <img src="flowers.png" style="border-radius: 5px 5px 0 0 ;">
+                <div class="container">
+                    <input type="number" id="flowers" name="flowers" placeholder="Enter amount">
+                </div>
+            </div>
+        </div>
+        <div class="column">
+            <div class="card">
+                <img src="grocery.png" style="border-radius: 5px 5px 0 0 ;">
+                <div class="container">
+                    <input type="number" id="grocery" name="grocery" placeholder="Enter amount">
+                </div>
+            </div>
+        </div>
+        <div class="column">
+            <div class="card">
+                <img src="milk.png" style="border-radius: 5px 5px 0 0 ;">
+                <div class="container">
+                    <input type="number" id="milk" name="milk" placeholder="Enter amount">
+                </div>
+            </div>
+        </div>
+        <div class="column">
+            <div class="card">
+                <img src="medicines.png" style="border-radius: 5px 5px 0 0 ;">
+                <div class="container">
+                    <input type="number" id="medicines" name="medicines" placeholder="Enter amount">
+                </div>
+            </div>
+        </div>
+        <div class="column">
+            <div class="card">
+                <img src="petrol.png" style="border-radius: 5px 5px 0 0 ;">
+                <div class="container">
+                    <input type="number" id="petrol" name="petrol" placeholder="Enter amount">
+                </div>
+            </div>
+        </div>
+        <div class="column">
+            <div class="card">
+                <img src="snacks.png" style="border-radius: 5px 5px 0 0 ;">
+                <div class="container">
+                    <input type="number" id="snacks" name="snacks" placeholder="Enter amount">
+                </div>
+            </div>
+        </div>
+        <div class="column">
+            <div class="card">
+                <img src="milkcard.png" style="border-radius: 5px 5px 0 0 ;">
+                <div class="container">
+                    <input type="number" id="milkcard" name="milkcard" placeholder="Enter amount">
+                </div>
+            </div>
+        </div>
+        <div class="column">
+            <div class="card">
+                <img src="general.png" style="border-radius: 5px 5px 0 0;">
+                <div class="container">
+                    <input type="number" id="general" name="general" placeholder="Enter amount">
+                </div>
+            </div>
+        </div>
+        <div class="column">
+            <input type="submit" class="btn" value="CLICK TO SAVE">
+        </div>
+    </div>
+    
+    </form>
+</body>
+</html>
